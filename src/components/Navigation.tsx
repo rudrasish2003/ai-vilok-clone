@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -27,8 +28,8 @@ const Navigation = () => {
           </div>
 
           <div>
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6">
-              BOOK A DEMO
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6" asChild>
+              <Link to="/contact">BOOK A DEMO</Link>
             </Button>
           </div>
         </div>

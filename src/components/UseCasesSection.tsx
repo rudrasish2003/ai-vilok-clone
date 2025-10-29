@@ -54,7 +54,7 @@ const UseCasesSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {useCases.map((useCase, index) => (
-            <div key={index} className="bg-background rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div key={index} className="bg-background rounded-lg p-6 hover:shadow-lg transition-all border-2 border-transparent hover:border-primary">
               <h3 className="text-xl font-bold mb-4 text-primary">{useCase.category}</h3>
               <ul className="space-y-3">
                 {useCase.items.map((item, itemIndex) => (

@@ -38,7 +38,7 @@ const WhatIsSection = () => {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-background rounded-lg p-8 text-center hover:shadow-lg transition-shadow"
+              className="bg-background rounded-lg p-8 text-center hover:shadow-lg transition-all border-2 border-transparent hover:border-primary"
             >
               <div className="inline-flex items-center justify-center w-20 h-20 bg-primary rounded-full mb-6">
                 <feature.icon className="w-10 h-10 text-primary-foreground" />

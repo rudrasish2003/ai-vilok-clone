@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mic } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -12,17 +12,9 @@ const Hero = () => {
           Agentic Voice AI that listens, acts, and learns — built to transform HR and people operations.
         </p>
         
-        <div className="flex justify-center mb-8">
-          <div className="relative">
-            <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full animate-pulse" />
-            <div className="relative bg-primary rounded-full p-6">
-              <Mic className="w-8 h-8 text-primary-foreground" />
-            </div>
-          </div>
-        </div>
 
-        <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg">
-          BOOK A DEMO
+        <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg" asChild>
+          <Link to="/contact">BOOK A DEMO</Link>
         </Button>
       </div>
     </section>
