@@ -29,7 +29,7 @@ const Navigation = () => {
 
           <div>
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6" asChild>
-              <Link to="/contact">BOOK A DEMO</Link>
+              <a href="https://calendly.com/akshita-goel/30min" target="_blank" rel="noopener noreferrer">BOOK A DEMO</a>
             </Button>
           </div>
         </div>

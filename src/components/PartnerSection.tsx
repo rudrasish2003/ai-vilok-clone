@@ -12,8 +12,8 @@ const PartnerSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg">
-              BOOK A DEMO
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg" asChild>
+              <a href="https://calendly.com/akshita-goel/30min" target="_blank" rel="noopener noreferrer">BOOK A DEMO</a>
             </Button>
             <Button 
               variant="outline" 
